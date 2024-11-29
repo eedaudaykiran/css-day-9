@@ -1,0 +1,169 @@
+.md {
+    background-color: blueviolet;
+    display:grid;
+    padding: 20px;
+    /* height:50vh;
+    width:90vw; */
+    grid-template-areas: 
+    "area1 area2 area3"
+    "area4 area6 area6"                                        
+    "area5 area6 area6";
+    grid-template-rows:150px 150px 150px ;
+    gap:30px;
+}
+.md div {
+    display:grid;
+    justify-content: center;
+    /* align-content: center; */
+    box-shadow:5px 5px black;
+    font-weight: bold;
+}
+.item1{
+    background-color: rgb(255, 204, 127);
+    grid-area: area1;
+}
+.item2{
+    background-color: green;
+    grid-area: area2;
+}
+.item3{
+    background-color: greenyellow;
+    grid-area: area3;
+}
+.item4{
+    background-color: red;
+    grid-area: area4;
+}
+.item5{
+    background-color: tomato;
+    grid-area: area5;
+}
+.item6{
+    background-color: rgb(170, 127, 255);
+    grid-area: area6;
+}
+
+
+
+
+
+.sd{
+    background-color:blueviolet;
+    display: grid;
+    padding: 20px;
+    /* height:50vh;
+    width:90vw; */
+    
+    grid-template-areas:
+    "area1 area2 area3 area4 area5 area6" 
+    "area7 area8 area8 area4 area5 area6" ;
+    grid-template-rows: 150px 150px;
+    gap:30px;
+       
+}
+.sd div {
+    display: grid;
+    align-content:center;
+    justify-items: center;
+    font-weight: bold;
+    box-shadow:8px 8px black; 
+
+}
+ 
+ 
+.div1 {
+    background-color: hotpink;
+    grid-area: area1;
+    
+
+}
+.div2{
+    background-color: rgb(0, 255, 106);
+    grid-area: area2;
+}
+.div3{
+    background-color: green;
+    grid-area:area3;
+}
+.div4{
+    background-color: mediumorchid;
+    grid-area:area4;
+}
+.div5{
+    background-color: magenta;
+    grid-area:area5;
+}
+.div6 {
+    background-color: turquoise;
+    grid-area:area6;
+    width: 20px;
+}
+.div7 {
+    background-color: red;
+    grid-area:area7;
+}
+.div8 {
+    background-color: royalblue;
+    grid-area:area8;
+}
+
+
+
+.kiran{
+    background-color: blueviolet;
+    padding: 20px;
+    /* height:50vh;
+    width:90vw; */
+    display: grid;
+    grid-template-areas: 
+    "area1 area2 area2 area3"
+    "area1 area4 area5 area6"
+    "area1 area7 area8 area6";
+    grid-template-rows: 150px 150px 150px;
+    gap:30px;
+ }
+ .item1{
+    background-color: brown;
+        grid-area: area1;
+ }
+ .item2{
+    background-color: black;
+    grid-area: area2;
+ }
+ .item3{
+    background-color: rgb(97, 219, 26);
+    grid-area: area3;
+ }
+ .item4{
+    background-color: rgb(41, 164, 225);
+    grid-area: area4;
+ }
+ .item5{
+    background-color: mediumblue;
+    grid-area: area5;
+ }
+ .item6{
+    background-color: mediumseagreen;
+    grid-area: area6;
+ }
+ .item7{
+    background-color: red;
+    grid-area: area7;
+ }
+ .item8{
+    background-color: mediumvioletred;
+    grid-area: area8;
+ }
+
+ .kiran div {
+    display:grid;
+    align-content:center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+ }
+
+
+
+
